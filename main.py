@@ -4,13 +4,11 @@
 # Coder: Khan Ayaan Shakeel
 # Date:4/2/26
 
-print("--- Pattern Printer ---\n")
-
 
 # Write your code here
 # Triangle Pattern in Python
 
-rows = 5
+rows=int(input())
 
 for i in range(1, rows + 1):
     for j in range(i):
