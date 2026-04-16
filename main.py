@@ -6,11 +6,17 @@
 
 
 # Write your code here
-# Triangle Pattern in Python
+#include <stdio.h>
 
-rows=int(input())
+int main() {
+    int i, j, rows = 5;
 
-for i in range(1, rows + 1):
-    for j in range(i):
-        print("*", end=" ")
-    print()
+    for(i = 1; i <= rows; i++) {
+        for(j = 1; j <= i; j++) {
+            printf("* ");
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
